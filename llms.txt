@@ -1,0 +1,15 @@
+# Kelas Ngajiku
+
+Kelas Ngajiku adalah situs informasi kelas mengaji online berkelompok untuk anak dan dewasa, dengan jalur belajar dari fondasi membaca Al-Qur'an hingga tahsin dan tajwid.
+
+## Site links
+
+- Homepage: https://kelasngajiku.com/
+- Pilihan kelas: https://kelasngajiku.com/#kelas
+- Cara belajar: https://kelasngajiku.com/#cara-belajar
+- FAQ: https://kelasngajiku.com/#faq
+- Robots policy: https://kelasngajiku.com/robots.txt
+
+## Crawling guidance
+
+Public informational pages may be indexed. Do not use website content to infer private student, teacher, enrollment, payment, or class-session data that is not explicitly published on the site.
