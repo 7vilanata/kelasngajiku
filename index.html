@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kelas Ngajiku — Kelas Mengaji Online untuk Anak &amp; Dewasa</title>
-  <meta name="description" content="Belajar Al-Qur'an dalam kelas kelompok live yang terstruktur. Pilih kelas sesuai usia dan level, ikuti jadwal rutin, dan belajar dari mana saja bersama Kelas Ngajiku.">
+  <title>Kelas Ngajiku — Ngaji Bareng, Belajar Lebih Terarah</title>
+  <meta name="description" content="Kelas kelompok online untuk belajar mengaji langkah demi langkah lewat jadwal rutin langsung dari rumah. Pilih Kelas Ringan atau Kelas Rutin sesuai ritmemu.">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0d493a">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="id_ID">
-  <meta property="og:title" content="Kelas Ngajiku — Belajar Terarah, Bertumbuh Bersama">
-  <meta property="og:description" content="Kelas kelompok live untuk belajar mengaji sesuai level, dari fondasi hingga tahsin.">
+  <meta property="og:title" content="Kelas Ngajiku — Ngaji Bareng, Belajar Lebih Terarah">
+  <meta property="og:description" content="Pilih kelas kelompok online sesuai waktu dan target ngajimu, mulai dari seminggu sekali hingga rutin Senin–Jumat.">
   <meta property="og:url" content="https://kelasngajiku.com/">
   <link rel="canonical" href="https://kelasngajiku.com/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230d493a'/%3E%3Cpath d='M15 20c7 0 12 2 17 7 5-5 10-7 17-7v25c-7 0-12 2-17 7-5-5-10-7-17-7V20Z' fill='none' stroke='%23dff28d' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M32 27v25' stroke='%23dff28d' stroke-width='4'/%3E%3C/svg%3E">
@@ -107,7 +107,7 @@
       gap: 11px;
       flex: 0 0 auto;
       font-weight: 800;
-      letter-spacing: -.03em;
+      letter-spacing: 0;
     }
 
     .brand-mark {
@@ -274,7 +274,7 @@
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
       font-weight: 700;
-      letter-spacing: -.045em;
+      letter-spacing: 0;
     }
 
     .hero h1 {
@@ -375,12 +375,12 @@
     .section-subtitle { max-width: 650px; margin: 19px 0 0; color: var(--muted); font-size: 17px; }
     .center .section-subtitle { margin-inline: auto; }
 
-    .program-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .program-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; max-width: 900px; margin-inline: auto; }
     .program-card {
       position: relative;
       display: flex;
       flex-direction: column;
-      min-height: 380px;
+      min-height: 490px;
       overflow: hidden;
       padding: 28px;
       border: 1px solid var(--line);
@@ -392,17 +392,22 @@
 
     .program-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-sm); }
     .program-card.popular { color: var(--white); border-color: var(--forest); background: var(--forest); box-shadow: 0 22px 55px rgba(13,73,58,.2); }
-    .program-card.popular .program-desc, .program-card.popular .program-label, .program-card.popular .program-list { color: rgba(255,255,255,.75); }
+    .program-card.popular .program-desc, .program-card.popular .program-label, .program-card.popular .program-list { color: rgba(255,255,255,.78); }
     .program-card.popular .program-number { color: rgba(223,242,141,.35); }
     .program-card.popular .program-tag { color: var(--forest-dark); background: var(--lime); }
     .program-number { position: absolute; top: 17px; right: 22px; color: #e8ece6; font-family: Georgia, serif; font-size: 68px; font-weight: 700; line-height: 1; }
     .program-tag { align-self: flex-start; padding: 7px 11px; border-radius: 999px; color: var(--forest); background: var(--mint); font-size: 10px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
-    .program-card h3 { position: relative; margin: 45px 0 0; font-family: Georgia, serif; font-size: 29px; line-height: 1.15; letter-spacing: -.025em; }
-    .program-desc { margin: 13px 0 22px; color: var(--muted); font-size: 14px; }
+    .program-card h3 { position: relative; margin: 45px 0 0; font-family: Georgia, serif; font-size: 29px; line-height: 1.15; letter-spacing: 0; }
+    .program-price { margin: 11px 0 0; font-family: Georgia, serif; font-size: 40px; font-weight: 700; line-height: 1; letter-spacing: 0; }
+    .program-price span { font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0; opacity: .64; }
+    .program-desc { margin: 17px 0 22px; color: var(--muted); font-size: 14px; }
     .program-label { margin: 0 0 9px; color: #73827c; font-size: 10px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
     .program-list { display: grid; gap: 10px; margin: 0 0 28px; padding: 0; color: #3f554e; list-style: none; font-size: 13px; }
     .program-list li { display: flex; align-items: flex-start; gap: 9px; }
     .program-list li::before { content: ""; width: 7px; height: 7px; flex: 0 0 auto; margin-top: 7px; border-radius: 50%; background: var(--gold); }
+    .program-card .program-action { width: 100%; margin-top: auto; }
+    .program-card:not(.popular) .program-action { color: var(--forest); border-color: var(--forest); background: transparent; box-shadow: none; }
+    .program-card:not(.popular) .program-action:hover { color: var(--white); background: var(--forest); }
     .class-note {
       display: flex;
       align-items: center;
@@ -538,7 +543,7 @@
       .visual-shell { inset: 10px 30px 20px; }
       .section { padding: 88px 0; }
       .program-grid { grid-template-columns: 1fr; }
-      .program-card { min-height: auto; }
+      .program-card { min-height: 0; }
       .program-card h3 { margin-top: 36px; }
       .steps-grid, .faq-grid, .closing-inner { grid-template-columns: 1fr; }
       .step-card { min-height: 220px; }
@@ -626,7 +631,7 @@
         <a href="#kelas">Pilihan Kelas</a>
         <a href="#cara-belajar">Cara Belajar</a>
         <a href="#faq">FAQ</a>
-        <a class="button button-primary" href="https://api.whatsapp.com/send/?phone=62881027172851&amp;text=Assalamualaikum%2C+saya+mau+daftar+kelas+mengaji+online+di+Kelas+Ngajiku+kelasngajiku.com&amp;type=phone_number&amp;app_absent=0">Cek Kelas</a>
+        <a class="button button-primary" href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+mau+konsultasi+tentang+kelas+mengaji+online+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">Cek Kelas</a>
       </nav>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Buka menu navigasi">
@@ -640,8 +645,8 @@
       <div class="container hero-grid">
         <div class="hero-content reveal">
           <span class="eyebrow">Kelas Mengaji Online</span>
-          <h1 id="hero-title">Belajar lebih terarah, <span class="highlight">bertumbuh bersama.</span></h1>
-          <p class="hero-copy">Kelas kelompok live untuk anak dan dewasa, dari fondasi membaca hingga tahsin. Belajar langkah demi langkah lewat jadwal rutin—langsung dari rumah.</p>
+          <h1 id="hero-title">Ngaji Bareng, Belajar <span class="highlight">Lebih Terarah</span></h1>
+          <p class="hero-copy">Kelas kelompok online untuk belajar langkah demi langkah lewat jadwal rutin langsung dari rumah.</p>
         </div>
 
         <div class="hero-visual reveal delay-1">
@@ -656,54 +661,49 @@
       <div class="container">
         <div class="section-head center reveal">
           <span class="eyebrow">Pilihan Kelas</span>
-          <h2 class="section-title" id="program-title">Mulai dari tahap yang paling pas.</h2>
-          <p class="section-subtitle">Pilih jalur sesuai kemampuanmu saat ini.</p>
+          <h2 class="section-title" id="program-title">Pilih ritme belajar yang paling pas.</h2>
+          <p class="section-subtitle">Mau lebih intensif atau cukup seminggu sekali? Pilih kelas sesuai waktu dan target ngajimu.</p>
         </div>
 
         <div class="program-grid">
           <article class="program-card reveal">
             <span class="program-number" aria-hidden="true">01</span>
-            <span class="program-tag">Mulai dari dasar</span>
-            <h3>Kelas Fondasi</h3>
-            <p class="program-desc">Untuk yang baru mulai atau ingin mengulang dasar membaca dengan lebih rapi.</p>
-            <p class="program-label">Fokus belajar</p>
+            <span class="program-tag">Seminggu sekali</span>
+            <h3>Kelas Ringan</h3>
+            <p class="program-price">Rp199.000</p>
+            <p class="program-desc">Cocok untuk kamu yang ingin tetap rutin ngaji di tengah kesibukan.</p>
+            <p class="program-label">Yang kamu dapatkan</p>
             <ul class="program-list">
-              <li>Huruf hijaiyah dan harakat</li>
-              <li>Penyambungan huruf</li>
-              <li>Makhraj dasar</li>
+              <li>Mengaji setiap Sabtu</li>
+              <li>Maksimal 6 murid per kelas</li>
+              <li>Durasi 60 menit</li>
+              <li>Laporan progres setiap pertemuan</li>
+              <li>Tanpa biaya pendaftaran</li>
             </ul>
+            <a class="button program-action" href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+ingin+memilih+Kelas+Ringan+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">Pilih Kelas Ringan →</a>
           </article>
 
           <article class="program-card popular reveal delay-1">
             <span class="program-number" aria-hidden="true">02</span>
-            <span class="program-tag">Naikkan kelancaran</span>
-            <h3>Kelas Lancar Membaca</h3>
-            <p class="program-desc">Untuk yang sudah bisa membaca, tetapi masih sering terhenti atau belum stabil.</p>
-            <p class="program-label">Fokus belajar</p>
+            <span class="program-tag">Lebih intensif</span>
+            <h3>Kelas Rutin</h3>
+            <p class="program-price">Rp399.000</p>
+            <p class="program-desc">Cocok untuk kamu yang ingin membangun rutinitas ngaji lebih intensif.</p>
+            <p class="program-label">Yang kamu dapatkan</p>
             <ul class="program-list">
-              <li>Latihan kelancaran bacaan</li>
-              <li>Panjang-pendek dasar</li>
-              <li>Waqaf dan ibtida dasar</li>
+              <li>Mengaji rutin Senin–Jumat</li>
+              <li>Maksimal 6 murid per kelas</li>
+              <li>Durasi 60 menit</li>
+              <li>Laporan progres setiap pertemuan</li>
+              <li>Tanpa biaya pendaftaran</li>
             </ul>
-          </article>
-
-          <article class="program-card reveal delay-2">
-            <span class="program-number" aria-hidden="true">03</span>
-            <span class="program-tag">Perbaiki bacaan</span>
-            <h3>Kelas Tahsin &amp; Tajwid</h3>
-            <p class="program-desc">Untuk memperbaiki ketepatan bacaan dan memahami kaidah yang digunakan.</p>
-            <p class="program-label">Fokus belajar</p>
-            <ul class="program-list">
-              <li>Makhraj dan sifat huruf</li>
-              <li>Kaidah tajwid</li>
-              <li>Praktik membaca tartil</li>
-            </ul>
+            <a class="button button-lime program-action" href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+ingin+memilih+Kelas+Rutin+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">Pilih Kelas Rutin →</a>
           </article>
         </div>
 
         <div class="class-note reveal">
-          <span><strong>Belum tahu levelmu?</strong> Tidak masalah. Pengecekan bacaan singkat membantu mengarahkanmu ke kelas yang sesuai.</span>
-          <a href="https://api.whatsapp.com/send/?phone=62881027172851&amp;text=Assalamualaikum%2C+saya+mau+daftar+kelas+mengaji+online+di+Kelas+Ngajiku+kelasngajiku.com&amp;type=phone_number&amp;app_absent=0">Bantu saya pilih kelas →</a>
+          <span><strong>Belum tahu kelas yang paling pas?</strong> Ceritakan kebutuhan dan waktumu, lalu admin akan membantu memilihkan ritme belajar yang sesuai.</span>
+          <a href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+mau+konsultasi+untuk+memilih+kelas+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">Bantu saya pilih kelas →</a>
         </div>
       </div>
     </section>
@@ -713,14 +713,14 @@
         <div class="section-head reveal">
           <span class="eyebrow" style="color: var(--lime)">Cara Bergabung</span>
           <h2 class="section-title" id="steps-title">Tiga langkah menuju kelasmu.</h2>
-          <p class="section-subtitle" style="color: rgba(255,255,255,.66)">Mulai dari level yang tepat, lalu belajar rutin bersama kelompokmu.</p>
+          <p class="section-subtitle" style="color: rgba(255,255,255,.66)">Pilih ritme yang tepat, lalu belajar rutin bersama kelompokmu.</p>
         </div>
 
         <div class="steps-grid reveal">
           <article class="step-card">
             <span class="step-number">01</span>
-            <h3>Cek kategori &amp; level</h3>
-            <p>Tentukan kelas anak, remaja, atau dewasa lalu ikuti pengecekan bacaan singkat.</p>
+            <h3>Konsultasikan dengan Admin</h3>
+            <p>Ceritakan kebutuhan ngajimu, lalu admin akan membantu memilihkan kelas yang sesuai.</p>
             <span class="step-arrow" aria-hidden="true">→</span>
           </article>
           <article class="step-card">
@@ -749,12 +749,12 @@
 
         <div class="faq-list reveal delay-1">
           <details class="faq-item" open>
-            <summary>Apakah kelasnya privat?</summary>
-            <div class="faq-answer">Tidak. Program utama Kelas Ngajiku adalah kelas kelompok live. Peserta diarahkan ke kelas berdasarkan kategori usia dan level belajar.</div>
+            <summary>Perempuan dan laki-laki apa dicampur dalam 1 kelas?</summary>
+            <div class="faq-answer">Tidak, perempuan akan diajar ustadzah dan laki-laki diajar ustadz di kelas terpisah.</div>
           </details>
           <details class="faq-item">
-            <summary>Bisa mulai dari nol dan bagaimana menentukan level?</summary>
-            <div class="faq-answer">Bisa. Peserta mengikuti pengecekan bacaan singkat lalu diarahkan ke Kelas Fondasi atau level lain yang paling sesuai.</div>
+            <summary>Apakah bisa mulai belajar dari nol?</summary>
+            <div class="faq-answer">Bisa. Ceritakan pengalaman belajarmu kepada admin agar kamu diarahkan ke kelompok yang paling sesuai.</div>
           </details>
           <details class="faq-item">
             <summary>Apa yang perlu disiapkan?</summary>
@@ -772,10 +772,10 @@
       <div class="container closing-inner">
         <div class="reveal">
           <h2 class="closing-title" id="closing-title">Siap membangun kebiasaan mengaji yang lebih terarah?</h2>
-          <p class="closing-copy">Temukan kelas yang sesuai dengan usia, kemampuan, dan ritme belajarmu.</p>
+          <p class="closing-copy">Temukan kelas yang sesuai dengan waktu dan target ngajimu.</p>
         </div>
         <div class="closing-actions reveal delay-1">
-          <a class="button button-lime" href="https://api.whatsapp.com/send/?phone=62881027172851&amp;text=Assalamualaikum%2C+saya+mau+daftar+kelas+mengaji+online+di+Kelas+Ngajiku+kelasngajiku.com&amp;type=phone_number&amp;app_absent=0">
+          <a class="button button-lime" href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+mau+konsultasi+tentang+kelas+mengaji+online+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">
             Cek Jadwal &amp; Slot Kelas
             <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
@@ -813,7 +813,7 @@
   </footer>
 
   <div class="mobile-cta">
-    <a class="button button-primary" href="https://api.whatsapp.com/send/?phone=62881027172851&amp;text=Assalamualaikum%2C+saya+mau+daftar+kelas+mengaji+online+di+Kelas+Ngajiku+kelasngajiku.com&amp;type=phone_number&amp;app_absent=0">Cek Kelas yang Tersedia</a>
+    <a class="button button-primary" href="https://api.whatsapp.com/send/?phone=6285737685891&amp;text=Assalamualaikum%2C+saya+mau+konsultasi+tentang+kelas+mengaji+online+di+Kelas+Ngajiku&amp;type=phone_number&amp;app_absent=0">Cek Kelas yang Tersedia</a>
   </div>
 
   <script>
