@@ -1,6 +1,6 @@
 # Kelas Ngajiku
 
-Kelas Ngajiku adalah situs informasi kelas mengaji online berkelompok untuk anak dan dewasa, dengan jalur belajar dari fondasi membaca Al-Qur'an hingga tahsin dan tajwid.
+Kelas Ngajiku adalah situs informasi kelas mengaji online berkelompok dengan maksimal 6 peserta, untuk memperbaiki kelancaran, tajwid, tahsin, dan makhraj. Peserta yang mulai dari nol perlu berkonsultasi dengan admin untuk mengecek kelas yang sesuai.
 
 ## Site links
 
